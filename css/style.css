@@ -52,6 +52,17 @@ body {
     top: 0;
     z-index: 2;
     border-bottom: 1px solid  #EBEBF033;
+    color: #FFF;
+    transition: background-color 0.2s;
+}
+
+.navbar-light {
+    background-color: #FAFBFC;
+    color: #292D33;
+}
+
+.navbar-light .header-logo-path {
+    fill: #292D33;
 }
 
 .header-logo {
@@ -67,7 +78,6 @@ body {
     padding: 0 50px;
     margin: 0;
     gap: 50px;
-    color: #FFF;
 }
 
 .header-nav-link {
