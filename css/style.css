@@ -196,7 +196,7 @@ body {
 
 .header-features-item {
     padding: 1.75rem 3.125rem;
-    min-height: 100%;
+    height: auto;
     width: 18rem;
     border: 1px solid #EBEBF033;
 }
@@ -310,6 +310,22 @@ body {
     margin-right: 1.25rem;
 }
 
+.steps-buttons {
+    display: none;
+    height: 40px;
+    justify-content: flex-end;
+}
+
+.steps-button-prev, .steps-button-next {
+    background: #5C8EE5; 
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
 @media (max-width: 1710px) {
     html {
         font-size: 14px;
@@ -364,6 +380,10 @@ body {
     }
 
     .slider-buttons{
+        display: flex;
+    }
+
+    .steps-buttons {
         display: flex;
     }
 }
@@ -521,6 +541,8 @@ body {
         max-width: 40rem;
     }
     
+    .navbar
+
     .header-title {
         font-size: 4rem;
     }
