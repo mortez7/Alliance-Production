@@ -97,6 +97,8 @@ body {
 
 .header-nav {
     display: flex;
+    align-items: center;
+    height: 100%;
     flex-basis: 100%;
     list-style: none;
     padding: 0;
@@ -105,14 +107,38 @@ body {
     /*gap: 3.3125rem;*/
 }
 
+.header-nav-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .header-nav-item:not(:last-child) {
     margin-right: 3.3125rem;;
 }
 
 .header-nav-link {
+    display: flex;
+    height: 100%;
+    align-items: center;
     text-decoration: none;
     font-size: 1rem;
     color: inherit;
+    position: relative;
+}
+
+.header-nav-link:after {
+    content: "";
+    width: 0px;
+    position: absolute;
+    bottom: -1px;
+    background-color: #5C8EE5;
+    height: 2px;
+    transition: width 0.2s;
+}
+
+.header-nav-link:hover::after {
+    width: 100%
 }
 
 .header-phone {
@@ -192,6 +218,7 @@ body {
     list-style: none;
     color: #FFF;
     position: relative;
+    margin-bottom: 0;
 }
 
 .header-features-item {
@@ -233,6 +260,15 @@ body {
     margin-bottom: 9.375rem;
 }
 
+.section-light {
+    margin-bottom: 0;
+}
+
+.production {
+    margin-top: 7.6rem;
+    margin-bottom: 6.6rem;
+}
+
 .section-title {
     font-family: 'Bebas Neue';
     font-size: 3.75rem;
@@ -247,6 +283,7 @@ body {
     list-style: none;
     padding: 0;
     gap: 1.875rem;
+    margin: 0;
 }
 
 .steps-item {
@@ -308,6 +345,11 @@ body {
     background: #5C8EE5;
     width: 2.5rem;
     margin-right: 1.25rem;
+    transition: width 0.2s;
+}
+
+.steps-link:hover::before {
+    width: 3.75rem;
 }
 
 .steps-buttons {
@@ -324,6 +366,119 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3.7rem;
+}
+
+.card {
+    flex-basis: 33%;
+    border: 1px solid #EBEBF0;
+    position: relative;
+    text-decoration: none;
+    transition: border 0.2s;
+}
+
+.card:hover .card-title {
+    color: #5C8EE5;
+}
+
+.card:hover {
+    border-color: #5C8EE5;
+}
+
+.card-content {
+    padding: 2.5rem 3.125rem;
+}
+
+.card-title {
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 140%;
+    color: #292D33;
+    margin-top: 0;
+    margin-bottom: .625rem;
+    transition: color 0.2s;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 160%;
+    color: #828A99;
+    margin-bottom: 24.625rem;
+}
+
+.card-image {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.trademarks-title {
+    letter-spacing: 0.6px;
+    margin-bottom: 3.4rem;
+}
+
+.trademarks-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trademarks-card {
+    display: flex;
+    flex-basis: 50%;
+    border: 1px solid #EBEBF0;
+    padding: 3.125rem;
+    transition: border 0.2s;
+    text-decoration: none;
+}
+
+.trademarks-card:hover {
+    border-color: #5C8EE5;
+}
+
+.trademarks-card-image {
+    margin-right: 3.125rem;
+}
+
+.trademark-svg {
+    fill: #828A99;
+    transition: fill 0.2s;
+}
+
+.trademarks-card:hover .trademark-svg {
+    fill: #5C8EE5;
+}
+
+.trademarks-card-content {
+    padding-right: 1.875rem;
+}
+
+.trademarks-card-title {
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 160%;
+    color: #292D33;
+    margin-top: 0;
+    margin-bottom: .625rem;
+    transition: color 0.2s;
+}
+
+.trademarks-card:hover .trademarks-card-title {
+    color: #5C8EE5;
+}
+
+.trademarks-card-text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 160%;
+    color: #828A99;
+    margin: 0;
 }
 
 @media (max-width: 1710px) {
@@ -360,7 +515,6 @@ body {
 
 
 
-
 @media (max-width: 1200px) {
     .container {
         max-width: 70rem;
@@ -385,6 +539,14 @@ body {
 
     .steps-buttons {
         display: flex;
+    }
+
+    .card {
+        flex-basis: 50%;
+    }
+
+    .trademarks-card {
+        flex-basis: 100%;
     }
 }
 
@@ -549,6 +711,10 @@ body {
 
     .header-content {
         padding-top: 3rem;
+    }
+
+    .card {
+        flex-basis: 100%;
     }
 }
 
