@@ -430,7 +430,13 @@ body {
 }
 
 .trademarks-card {
-    display: flex;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: auto 2fr;
+    grid-template-areas: 
+    "logo title title"
+    "logo text text";
+    grid-column-gap: 50px;
     flex-basis: 50%;
     border: 1px solid #EBEBF0;
     padding: 3.125rem;
@@ -442,11 +448,9 @@ body {
     border-color: #5C8EE5;
 }
 
-.trademarks-card-image {
-    margin-right: 3.125rem;
-}
-
 .trademark-svg {
+    grid-area: logo;
+    width: 100%;
     fill: #828A99;
     transition: fill 0.2s;
 }
@@ -455,11 +459,8 @@ body {
     fill: #5C8EE5;
 }
 
-.trademarks-card-content {
-    padding-right: 1.875rem;
-}
-
 .trademarks-card-title {
+    grid-area: title;
     font-size: 1.75rem;
     font-weight: 400;
     line-height: 160%;
@@ -474,6 +475,7 @@ body {
 }
 
 .trademarks-card-text {
+    grid-area: text;
     font-size: 1rem;
     font-weight: 400;
     line-height: 160%;
@@ -546,7 +548,7 @@ body {
     }
 
     .trademarks-card {
-        flex-basis: 100%;
+        grid-template-columns: auto auto;
     }
 }
 
@@ -711,6 +713,10 @@ body {
     .social-icon {
         margin-right: 1rem;
     }
+
+    .trademarks-cards {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 768px) {
@@ -858,13 +864,25 @@ body {
         letter-spacing: 0.3px;
     }
 
-    .trademarks-card{
-        flex-wrap: wrap;
-        padding: 1.7rem 0rem 1.7rem 2.4rem;
+    .trademarks-card {
+        grid-template-columns: 100px 1fr;
+        grid-template-areas: 
+        "logo title"
+        "text text";
+        grid-column-gap: 31px;
+        padding: 1.7rem 0rem 3rem 2.4rem;
+    }
+
+    .trademarks-card-title {
+        line-height: 134%;
+        letter-spacing: -0.5px;
     }
 
     .trademarks-card-text {
         font-size: 1.2rem;
+        margin-top: 21px;
+        letter-spacing: -0.2px;
+        line-height: 152%;
     }
 
     .trademark-svg {
