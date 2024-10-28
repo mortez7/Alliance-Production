@@ -983,10 +983,10 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 40px;
-  right: 50px;
-  height: 50px;
-  width: 50px;
+  top: 2.5rem;
+  right: 3.125rem;
+  height: 3.125rem;
+  width: 3.125rem;
   border: 1px solid #ebebf0;
 }
 
@@ -1815,5 +1815,52 @@ body {
 
   .footer-legal {
     gap: 9px;
+  }
+
+  .modal.is-open .modal-dialog {
+    transform: translateY(22px);
+  }
+
+  .modal-dialog {
+    padding: 30px;
+  }
+
+  .modal-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 114%;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+  }
+
+  .modal-close {
+    right: 30px;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .close-icon {
+    height: 18px;
+    width: 18px;
+  }
+
+  .modal-text {
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    line-height: 155%;
+    margin-bottom: 20px;
+  }
+
+  .input-group-vertical {
+    gap: 21px;
+  }
+
+  .modal-form-footer {
+    margin-top: 20px;
+  }
+
+  .modal-form-button {
+    margin-bottom: 13px;
   }
 }
