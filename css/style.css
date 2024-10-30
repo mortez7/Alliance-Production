@@ -29,14 +29,27 @@ body {
 
 .header {
   padding-top: 5.875rem;
+  background-color: #f0f2f5;
 }
 
-.header-image {
+body.front-page .header-image {
   background-image: url("../img/header-bg.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom -3.4375rem;
   position: relative;
+}
+
+.header-image {
+  background-image: url("../img/blog/blog-post.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom -12.5rem;
+  position: relative;
+}
+
+.header-image .header-content {
+  color: #fff;
 }
 
 .header-image::before {
@@ -67,11 +80,22 @@ body {
 .navbar-light {
   background-color: #fafbfc;
   color: #292d33;
+}
+
+.navbar-scroll {
   height: 4.625rem;
 }
 
 .navbar-light .header-phone-link {
   color: #292d33;
+}
+
+.navbar-light .logo-light {
+  display: none;
+}
+
+.navbar-light .logo-dark {
+  display: block;
 }
 
 .header-logo {
@@ -86,7 +110,7 @@ body {
   fill: #5c8ee6;
 }
 
-.logo {
+.logo-dark {
   display: none;
 }
 
@@ -177,11 +201,17 @@ body {
   display: none;
 }
 
-.header-content {
+body.front-page .header-content {
   padding-top: 9.375rem;
   position: relative;
   z-index: 1;
   color: #fff;
+}
+
+.header-content {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  position: relative;
 }
 
 .separator {
@@ -200,6 +230,17 @@ body {
   word-spacing: -1.6px;
   margin-top: 1.4375rem;
   margin-bottom: 2.375rem;
+}
+
+.header-content-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+body.product-avtohim .header-content-image {
+  display: block;
 }
 
 .header-text {
