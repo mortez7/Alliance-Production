@@ -775,6 +775,22 @@ body.product-avtohim .header-content-image {
   background-color: inherit;
 }
 
+.input.is-invalid {
+  border: 1px solid red;
+}
+
+.just-validate-error-label {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: inherit;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
 .input-group-label {
   position: absolute;
   cursor: text;
@@ -1019,6 +1035,14 @@ body.product-avtohim .header-content-image {
   transition: transform 0.3s, opacity 0.3s;
 }
 
+.modal-phone {
+  display: block;
+}
+
+.modal-success {
+  display: none;
+}
+
 .modal-close {
   display: flex;
   align-items: center;
@@ -1029,6 +1053,12 @@ body.product-avtohim .header-content-image {
   height: 3.125rem;
   width: 3.125rem;
   border: 1px solid #ebebf0;
+}
+
+.modal-success-image {
+  width: 22.5rem;
+  height: 19.375rem;
+  margin-bottom: 30px;
 }
 
 .modal-title {
@@ -1063,6 +1093,10 @@ body.product-avtohim .header-content-image {
 
 .modal-form-button {
   margin-bottom: 24px;
+  width: 100%;
+}
+
+.success-button {
   width: 100%;
 }
 

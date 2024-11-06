@@ -27,7 +27,7 @@
                 <input
                   id="user-phone"
                   type="tel"
-                  class="input"
+                  class="input phone-mask"
                   name="userphone"
                   placeholder=" "
                   maxlength="30"
@@ -180,7 +180,7 @@
     </footer>
 
     <div class="modal">
-      <div class="modal-dialog">
+      <div class="modal-dialog phone-modal">
         <h2 class="modal-title">Есть вопросы?</h2>
         <a href="#" class="modal-close" data-toggle="modal">
           <svg class="close-icon" width="24px" height="24px">
@@ -192,14 +192,16 @@
           ответит на все интересующие вопросы и поможем даже в самых сложных
           случаях!
         </p>
-        <form action="#" class="modal-form">
+        <form action="handler.php" method="POST" class="modal-form">
           <div class="input-group-wrapper input-group-vertical">
             <div class="input-group modal-input-group">
               <input
                 id="modal-user-name"
+                name="username"
                 type="text"
                 class="input modal-input"
                 placeholder=" "
+                required
               />
               <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
             </div>
@@ -207,9 +209,11 @@
             <div class="input-group modal-input-group">
               <input
                 id="modal-user-phone"
+                name="userphone"
                 type="tel"
-                class="input modal-input"
+                class="input modal-input phone-mask"
                 placeholder=" "
+                required
               />
               <label class="input-group-label modal-input-label" for="modal-user-phone"
                 >Номер телефона</label
@@ -230,10 +234,30 @@
                 работу, но и абсолютную конфиденциальность информации!
               </p>
             </div>
+          </div>
         </form>
+      </div>
+
+      <div class="modal-dialog modal-success">
+        <img src="./img/thanks_illu.png" alt="thanks" class="modal-success-image">
+      <h2 class="modal-title">Спасибо за заявку!</h2>
+        <a href="#" class="modal-close" data-toggle="modal">
+          <svg class="close-icon" width="24px" height="24px">
+            <use href="./img/sprite.svg#close"></use>
+          </svg>
+        </a>
+        <p class="modal-text">
+        Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+        </p>
+        <div class="modal-form-footer">
+          <button class="button cta-form-button success-button">
+            Вернуться на главную
+          </button>
+        </div>
       </div>
     </div>
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
