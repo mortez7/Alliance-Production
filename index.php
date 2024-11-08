@@ -134,7 +134,7 @@
         >
       </div>
 
-      <button class="button navbar-button" data-toggle="modal">
+      <button class="button navbar-button" data-toggle="modal" data-target="#feedback-modal">
         <svg class="button-icon" width="24px" height="24px">
           <use href="./img/sprite.svg#phone"></use>
         </svg>
@@ -155,7 +155,7 @@
             будущего проекта напрямую зависит от анализа существующих паттернов
             поведения.
           </p>
-          <button class="button header-button">Подробнее о компании</button>
+          <button class="button header-button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
         </div>
 
         <!-- Основной блок слайдера -->

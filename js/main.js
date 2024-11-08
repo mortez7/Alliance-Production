@@ -118,29 +118,32 @@ const swiperBlog = new Swiper(".blog-slider", {
   },
 });
 
-const modal = document.querySelector(".modal");
-const modalDialog = document.querySelector(".modal-dialog");
-const modalPhone = document.querySelector(".phone-modal");
-const modalSuccess = document.querySelector(".modal-success");
-const buttonSuccess = document.querySelector(".success-button");
+let currentModal;
+let modalDialog;
+let alertModal = document.querySelector("#alert-modal");
 
-document.addEventListener("click", (event) => {
-  if (
-    event.target.dataset.toggle == "modal" ||
-    event.target.parentNode.dataset.toggle == "modal" ||
-    (!event.composedPath().includes(modalDialog) &&
-      modal.classList.contains("is-open"))
-  ) {
+const modalButtons = document.querySelectorAll("[data-toggle=modal]");
+console.log(modalButtons);
+
+modalButtons.forEach((button) => {
+  button.addEventListener("click", (event) => {
     event.preventDefault();
-    modal.classList.toggle("is-open");
-    modalSuccess.style.display = "none";
-    modalPhone.style.display = "block";
-  }
+    currentModal = document.querySelector(button.dataset.target);
+    currentModal.classList.toggle("is-open");
+
+    modalDialog = currentModal.querySelector(".modal-dialog");
+
+    currentModal.addEventListener("click", (event) => {
+      if (!event.composedPath().includes(modalDialog)) {
+        currentModal.classList.remove("is-open");
+      }
+    });
+  });
 });
 
 document.addEventListener("keyup", (event) => {
-  if (event.key == "Escape" && modal.classList.contains("is-open")) {
-    modal.classList.toggle("is-open");
+  if (event.key == "Escape" && currentModal.classList.contains("is-open")) {
+    currentModal.classList.toggle("is-open");
   }
 });
 
@@ -188,9 +191,16 @@ forms.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            modal.classList.add("is-open");
-            modalPhone.style.display = "none";
-            modalSuccess.style.display = "block";
+            currentModal.classList.remove("is-open");
+            alertModal.classList.add("is-open");
+            currentModal = alertModal;
+            modalDialog = currentModal.querySelector(".modal-dialog");
+
+            currentModal.addEventListener("click", (event) => {
+              if (!event.composedPath().includes(modalDialog)) {
+                currentModal.classList.remove("is-open");
+              }
+            });
           } else {
             alert(response.statusText);
           }
@@ -200,6 +210,8 @@ forms.forEach((form) => {
       ajaxSend(formData);
     });
 });
+
+const buttonSuccess = document.querySelector(".success-button");
 
 buttonSuccess.addEventListener("click", () => {
   window.location.href = "./index.php";

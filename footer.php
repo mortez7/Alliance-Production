@@ -179,10 +179,10 @@
       </div>
     </footer>
 
-    <div class="modal">
-      <div class="modal-dialog phone-modal">
+    <div class="modal" id="feedback-modal">
+      <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close" data-toggle="modal">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
           <svg class="close-icon" width="24px" height="24px">
             <use href="./img/sprite.svg#close"></use>
           </svg>
@@ -237,11 +237,13 @@
           </div>
         </form>
       </div>
+    </div>
 
-      <div class="modal-dialog modal-success">
-        <img src="./img/thanks_illu.png" alt="thanks" class="modal-success-image">
+    <div class="modal" id="alert-modal">
+      <div class="modal-dialog">
       <h2 class="modal-title">Спасибо за заявку!</h2>
-        <a href="#" class="modal-close" data-toggle="modal">
+      <img src="./img/thanks_illu.png" alt="thanks" class="modal-success-image">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg class="close-icon" width="24px" height="24px">
             <use href="./img/sprite.svg#close"></use>
           </svg>
@@ -253,8 +255,8 @@
           <button class="button cta-form-button success-button">
             Вернуться на главную
           </button>
-        </div>
       </div>
+      
     </div>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
