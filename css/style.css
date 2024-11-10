@@ -48,7 +48,64 @@ body.front-page .header-image {
   position: relative;
 }
 
-.header-image .header-content {
+.page-header {
+  padding-top: 9.375rem;
+  padding-bottom: 3.125rem;
+  color: #292d33;
+  position: relative;
+}
+
+.page-header-bg-image {
+  background-image: url("../img/blog/blog-post.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.page-header-bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(41, 45, 51, 0.75);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.page-header-bg-image .container {
+  position: relative;
+}
+
+.page-header-bg-grey {
+  background-color: #F0F2F5;
+}
+
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #828A99;
+}
+
+.breadcrumbs-item.active .breadcrumbs-link {
+  color: #292D33;
+}
+
+.breadcrumbs-item:not(:last-child)::after {
+  content: "—";
+  margin-left: 10px;
+}
+
+.page-header-bg-image .breadcrumbs-link,
+.page-header-bg-image .breadcrumbs-item.active .breadcrumbs-link {
   color: #fff;
 }
 
@@ -251,13 +308,17 @@ body.product-avtohim .header-content-image {
   margin-bottom: 3.125rem;
 }
 
+body.front-page .header-features {
+  color: #fff;
+}
+
 .header-features {
   display: flex;
   min-height: 10.5rem;
   padding: 0;
   margin-top: 6.25rem;
   list-style: none;
-  color: #fff;
+  color: #292D33;
   position: relative;
   margin-bottom: 0;
 }
@@ -283,6 +344,16 @@ body.product-avtohim .header-content-image {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+body.front-page .slider-arrow-prev,
+body.front-page .slider-arrow-next {
+  fill: #fff;
+}
+
+.slider-arrow-prev,
+.slider-arrow-next {
+  fill: #292D33;
 }
 
 .header-button {
@@ -1100,6 +1171,104 @@ body.product-avtohim .header-content-image {
   width: 100%;
 }
 
+.experts {
+  margin-top: 6.25rem;
+  margin-bottom: 0;
+}
+
+.experts-wrapper {
+  display: flex;
+}
+
+.experts-img {
+  height: 30rem;
+  width: 30rem;
+  object-fit: cover;
+}
+
+.experts-content {
+  padding: 3.125rem 0rem 3.25rem 7.5rem;
+}
+
+.experts-title {
+  max-width: 37.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.experts-text {
+  font-weight: 400;
+  line-height: 160%;
+  font-size: 1rem;
+  color: #828A99;
+  max-width: 52.5rem;
+}
+
+.mission-wrapper {
+  display: flex;
+  gap: 7.5rem;
+}
+
+.mission-content {
+  padding-top: 3.125rem;
+}
+
+.mission-img {
+  width: 37.5rem;
+  height: 46.875rem;
+  object-fit: cover;
+}
+
+.mission-title {
+  margin-bottom: 1.25rem;
+}
+
+.mission-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828A99;
+  margin-bottom: 1.875rem;
+  margin-top: 0;
+  max-width: 45rem;
+}
+
+.image-swiper-wrapper {
+  padding-right: 13.125rem;
+  padding-left: 13.125rem;
+}
+
+.image-card {
+  min-height: 25rem;
+  max-width: 44.0625rem;
+}
+
+.image-buttons {
+  margin-top: 1.875rem;
+}
+
+.study-title {
+  max-width: 37.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.study-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6.25rem;
+  margin-bottom: 3.125rem;
+}
+
+.study-text {
+  max-width: 39.6875rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828A99;
+  margin: 0;
+}
+
+
 @media (max-width: 1710px) {
   html {
     font-size: 14px;
@@ -1419,6 +1588,11 @@ body.product-avtohim .header-content-image {
   .footer-menu-column-2 {
     columns: 16rem 2;
     min-width: 35.0625rem;
+  }
+
+  .experts-wrapper {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -1937,5 +2111,29 @@ body.product-avtohim .header-content-image {
 
   .modal-form-button {
     margin-bottom: 13px;
+  }
+
+  .experts-content {
+    padding-left: 0;
+  }
+  .experts-title {
+    max-width: 100%;
+  }
+
+  .experts-image {
+    width: 345px;
+    height: 345px;
+  }
+
+  .mission-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .mission-img {
+    width: 345px;
+    height: 430px;
   }
 }

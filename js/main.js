@@ -118,6 +118,25 @@ const swiperBlog = new Swiper(".blog-slider", {
   },
 });
 
+const swiperImage = new Swiper(".image-slider", {
+  speed: 400,
+  slidesPerView: 1,
+  spaceBetween: 30,
+  watchOverflow: true,
+  navigation: {
+    nextEl: ".image-button-next",
+    prevEl: ".image-button-prev",
+  },
+  breakpoints: {
+    992: {
+      slidesPerView: 2,
+    },
+    375: {
+      slidesPerView: 1,
+    },
+  },
+});
+
 let currentModal;
 let modalDialog;
 let alertModal = document.querySelector("#alert-modal");
