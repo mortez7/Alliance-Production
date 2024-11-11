@@ -83,4 +83,4 @@ include_once('header-page.php');?>
 
 <?php include_once('./template-parts/clients-block.php')?>
 
-<?php include_once('footer.php');?>
+<?php include_once("./template-parts/footer.php");?>

@@ -1268,6 +1268,39 @@ body.front-page .slider-arrow-next {
   margin: 0;
 }
 
+.seo {
+  margin-top: 6.25rem;
+}
+
+.seo-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292D33;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+}
+
+.seo-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828A99;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+.seo-link {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #5C8EE5;
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+}
 
 @media (max-width: 1710px) {
   html {

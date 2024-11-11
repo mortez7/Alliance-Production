@@ -150,7 +150,7 @@
           </h1>
           <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
-                <a href="#" class="breadcrumbs-link">Главная</a>
+                <a href="./" class="breadcrumbs-link">Главная</a>
             </li>
             <li class="breadcrumbs-item active">
                 <a href="#" class="breadcrumbs-link"><?= $page_title ?></a>
