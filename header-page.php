@@ -148,6 +148,7 @@
           <h1 class="header-title">
             <?= $page_title ?>
           </h1>
+          <img src="./img/avtoHim.png" alt="avtoHim" class="header-content-image">
           <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
                 <a href="./" class="breadcrumbs-link">Главная</a>

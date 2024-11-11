@@ -1,389 +1,141 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<?php
+$page_title =  'Автомобильная химия';
+$header_style = 'page-header-bg-grey header-bg-grey-image';
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>О компании - Alliance Production</title>
-  </head>
-  <body class="product-avtohim">
-    <div class="mobile-menu">
-      <ul class="mobile-menu-nav">
-        <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">О компании</a>
-        </li>
-        <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Контрактное производство</a>
-          <ul class="mobile-submenu">
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
+include_once('header-page.php');?>
+
+<section class="section chem-production">
+  <div class="container">
+    <div class="chem-production-wrapper">
+      <img src="./img/chem-production.jpg" alt="chemistry production" class="chem-production-image">
+      <div class="chem-production-content">
+        <div class="separator"></div>
+        <h2 class="section-title chem-production-title">
+          Контрактное производство автомобильной химии
+        </h2>
+        <p class="chem-production-text">Прежде всего, начало повседневной работы по формированию позиции однозначно фиксирует необходимость приоритизации разума над эмоциями. Кстати, представители современных социальных резервов неоднозначны и будут описаны максимально подробно.</p>
+        <p class="chem-production-text">Но социально-экономическое развитие напрямую зависит от поставленных обществом задач! Безусловно, постоянный количественный рост и сфера нашей активности предоставляет широкие возможности для системы обучения кадров, соответствующей насущным потребностям. В целом, конечно, выбранный нами инновационный путь обеспечивает широкому кругу (специалистов) участие в формировании своевременного выполнения сверхзадачи. А ещё элементы политического процесса представлены в исключительно положительном свете. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высокотехнологичная концепция общественного уклада создаёт предпосылки для глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <?php include_once('./template-parts/features-swiper.php');?>
+</div>
+
+<section class="section chem-manufacturing">
+  <div class="container">
+    <div class="chem-manufacturing-wrapper">
+      <div class="chem-manufacturing-content">
+        <div class="separator"></div>
+          <h2 class="section-title chem-manufacturing-title">
+            Изготовление автохимии
+          </h2>
+          <p class="chem-manufacturing-text">
+          Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
+          </p>
+          <ul class="chem-manufacturing-list">
+            <li class="chem-manufacturing-item">
+              <svg width="30" height="30">
+                <use href="./img/sprite.svg#him"></use>
+              </svg>
+              Полное описание товаров
             </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Бытовая химия</a>
+
+            <li class="chem-manufacturing-item">
+              <svg width="30" height="30">
+                <use href="./img/sprite.svg#car"></use>
+              </svg>
+              Актуальные цены
             </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#"
-                >Дезинфицирующие средства</a
-              >
+
+            <li class="chem-manufacturing-item">
+              <svg width="30" height="30">
+                <use href="./img/sprite.svg#him"></use>
+              </svg>
+              Полное описание товаров
             </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Пищевые аэрозоли</a>
+
+            <li class="chem-manufacturing-item">
+              <svg width="30" height="30">
+                <use href="./img/sprite.svg#car"></use>
+              </svg>
+              Актуальные цены
             </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#"
-                >Косметическая продукция</a
-              >
+
+            <li class="chem-manufacturing-item">
+              <svg width="30" height="30">
+                <use href="./img/sprite.svg#brush"></use>
+              </svg>
+              Лаки и краски
             </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Краски аэрозольные</a>
+
+            <li class="chem-manufacturing-item">
+              <svg width="30" height="30">
+                <use href="./img/sprite.svg#him"></use>
+              </svg>
+              Химические производства
+            </li>
+
+            <li class="chem-manufacturing-item">
+              <svg width="30" height="30">
+                <use href="./img/sprite.svg#brush"></use>
+              </svg>
+              Лаки и краски
+            </li>
+
+            <li class="chem-manufacturing-item">
+              <svg width="30" height="30">
+                <use href="./img/sprite.svg#him"></use>
+              </svg>
+              Химические производства
             </li>
           </ul>
-        </li>
-        <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Собственные торговые марки</a>
-        </li>
-        <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Новости</a>
-        </li>
-        <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Контакты</a>
-        </li>
-      </ul>
-      <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
-      <div class="mobile-info">
-        <svg width="24px" height="24px">
-          <use href="./img/sprite.svg#mark"></use>
-        </svg>
-        <address class="mobile-info-address">
-          г. Мосвка, Холодильный пер. 4к1с8
-        </address>
-      </div>
-
-      <div class="mobile-info">
-        <svg width="24px" height="24px">
-          <use href="./img/sprite.svg#mail"></use>
-        </svg>
-        <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email"
-          >a.dragunov@tdaliance.ru</a
-        >
-      </div>
-
-      <a href="#">
-        <svg class="social-icon" width="24px" height="24px">
-          <use href="./img/sprite.svg#vk"></use>
-        </svg>
-      </a>
-
-      <a href="#">
-        <svg class="social-icon" width="24px" height="24px">
-          <use href="./img/sprite.svg#inst"></use>
-        </svg>
-      </a>
-    </div>
-
-    <nav class="navbar navbar-light">
-      <a href="#" class="mobile-menu-toggle">
-        <div class="mobile-menu-line"></div>
-        <div class="mobile-menu-line"></div>
-        <div class="mobile-menu-line"></div>
-      </a>
-
-      <a href="./" class="header-logo">
-        <svg class="logo-svg logo-light">
-          <use href="./img/sprite.svg#logo-light"></use>
-        </svg>
-
-        <svg class="logo-svg logo-dark">
-          <use href="./img/sprite.svg#logo"></use>
-        </svg>
-      </a>
-
-      <ul class="header-nav">
-        <li class="header-nav-item">
-          <a href="./about.html" class="header-nav-link">О компании</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контрактное производство</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Новости</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контакты</a>
-        </li>
-      </ul>
-
-      <div class="header-phone">
-        <svg class="phone-icon" width="24px" height="24px">
-          <use href="./img/sprite.svg#phone"></use>
-        </svg>
-        <a href="tel:+74996861014" class="header-phone-link"
-          >+7 (499) 686-10-14</a
-        >
-      </div>
-
-      <button class="button navbar-button" data-toggle="modal">
-        <svg class="button-icon" width="24px" height="24px">
-          <use href="./img/sprite.svg#phone"></use>
-        </svg>
-        <span class="button-text">Получить консультацию</span>
-      </button>
-    </nav>
-
-    <header class="header header-image">
-      <div class="container">
-        <div class="header-content">
-          <div class="separator"></div>
-          <h1 class="header-title">
-            Автомобильная химия
-          </h1>
-          <img src="./img/avtoHim.png" alt="avtoHim" class="header-content-image">
-        </div>
-      </div>
-    </header>
-
-    <section class="cta">
-      <div class="bg-grey section-cta">
-        <img src="./img/cta.png" alt="call to action" class="cta-image" />
-        <div class="cta-form-wrapper container">
-          <form action="#" class="cta-form">
-            <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
-            <p class="cta-form-text">
-              Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
-              ответит на все интересующие вопросы и поможем даже в самых сложных
-              случаях!
-            </p>
-            <div class="input-group-wrapper">
-              <div class="input-group">
-                <input
-                  id="user-name"
-                  type="text"
-                  class="input"
-                  placeholder=" "
-                />
-                <label class="input-group-label" for="user-name">Имя</label>
-              </div>
-
-              <div class="input-group">
-                <input
-                  id="user-phone"
-                  type="tel"
-                  class="input"
-                  placeholder=" "
-                />
-                <label class="input-group-label" for="user-phone"
-                  >Номер телефона</label
-                >
-              </div>
-            </div>
-
-            <div class="cta-form-footer">
-              <button type="submit" class="button cta-form-button">
-                Отправить заявку
-              </button>
-              <div class="notify">
-                <svg width="15" height="15" class="notify-icon">
-                  <use href="./img/sprite.svg#shield"></use>
-                </svg>
-                <p class="notify-text">
-                  Обращаясь к нам вы получаете не только профессиональную
-                  работу, но и абсолютную конфиденциальность информации!
-                </p>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-top">
-          <svg class="logo-svg footer-logo">
-            <use href="./img/sprite.svg#logo"></use>
-          </svg>
-          <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
-          <div class="footer-info">
-            <svg width="24px" height="24px">
-              <use href="./img/sprite.svg#mark"></use>
-            </svg>
-            <address class="footer-info-address">
-              г. Москва, Холодильный пер. 4к1с8
-            </address>
-          </div>
-
-          <div class="footer-info">
-            <svg width="24px" height="24px">
-              <use href="./img/sprite.svg#mail"></use>
-            </svg>
-            <a href="mailto:a.dragunov@tdaliance.ru" class="footer-info-email"
-              >a.dragunov@tdaliance.ru</a
-            >
-          </div>
-
-          <div class="footer-social">
-            <a href="#" class="footer-social-link">
-              <svg class="footer-social-icon" width="24px" height="24px">
-                <use href="./img/sprite.svg#vk"></use>
-              </svg>
-            </a>
-
-            <a href="#" class="footer-social-link">
-              <svg class="footer-social-icon" width="24px" height="24px">
-                <use href="./img/sprite.svg#inst"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <hr color="#ebebf0" class="footer-separator" />
-      <div class="container">
-        <div class="footer-bottom">
-          <div class="footer-menu-wrapper">
-            <h2 class="footer-menu-title">Контрактное производство</h2>
-            <ul class="footer-menu-list footer-menu-column-2">
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автомобильная химия</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Бытовая химия</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link"
-                  >Дезинфицирующие средства</a
-                >
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Пищевые аэрозоли</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Косметическая продукция</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Краски аэрозольные</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer-menu-wrapper">
-            <h2 class="footer-menu-title">Собственные марки</h2>
-            <ul class="footer-menu-list">
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автохимия AP</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer-menu-wrapper">
-            <ul class="footer-menu-list">
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
-                  >О компании</a
-                >
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
-                  >Новости</a
-                >
-              </li>
-              <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
-                  >Контакты</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <hr color="#ebebf0" class="footer-separator" />
-      <div class="container">
-        <div class="footer-wrapper">
-          <div class="footer-legal">
-            <p class="footer-copyright">
-              &copy; 2022 «Aliance Production». Все права защищены.
-            </p>
-            <a href="#" class="footer-policy">Политики конфиденциальности</a>
-          </div>
-          <div class="footer-author">
-            <span class="made-in">Сделано в</span>
-            <svg width="52" height="11">
-              <use href="./img/sprite.svg#ruso"></use>
-            </svg>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <div class="modal">
-      <div class="modal-dialog">
-        <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close" data-toggle="modal">
-          <svg class="close-icon" width="24px" height="24px">
-            <use href="./img/sprite.svg#close"></use>
-          </svg>
-        </a>
-        <p class="modal-text">
-          Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
-          ответит на все интересующие вопросы и поможем даже в самых сложных
-          случаях!
-        </p>
-        <form action="#" class="modal-form">
-          <div class="input-group-wrapper input-group-vertical">
-            <div class="input-group modal-input-group">
-              <input
-                id="modal-user-name"
-                type="text"
-                class="input modal-input"
-                placeholder=" "
-              />
-              <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
-            </div>
-
-            <div class="input-group modal-input-group">
-              <input
-                id="modal-user-phone"
-                type="tel"
-                class="input modal-input"
-                placeholder=" "
-              />
-              <label class="input-group-label modal-input-label" for="modal-user-phone"
-                >Номер телефона</label
-              >
-            </div>
-          </div>
-
-          <div class="modal-form-footer">
-            <button type="submit" class="button cta-form-button modal-form-button">
-              Отправить заявку
-            </button>
-            <div class="notify">
-              <svg width="15" height="15" class="notify-icon">
-                <use href="./img/sprite.svg#shield"></use>
-              </svg>
-              <p class="notify-text">
-                Обращаясь к нам вы получаете не только профессиональную
-                работу, но и абсолютную конфиденциальность информации!
-              </p>
-            </div>
-        </form>
       </div>
     </div>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>
+  </div>
+  <img src="./img/chem-manufacturing.jpg" alt="chem-manufacturing" class="chem-manufacturing-image">
+</section>
+
+<section class="section chemistry-types">
+  <div class="container">
+    <div class="separator"></div>
+    <h2 class="section-title chemistry-types-title">
+      Виды автохимии
+    </h2>
+    <p class="chemistry-types-text">
+    Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям.
+    </p>
+    <ul class="chemistry-types-list">
+      <li class="chemistry-types-item">Антискотч</li>
+      <li class="chemistry-types-item">Многоцелевая смазка</li>
+      <li class="chemistry-types-item">Жидкий ключ</li>
+      <li class="chemistry-types-item">Высокотемпературная смазка</li>
+      <li class="chemistry-types-item">Универсальный очиститель деталей</li>
+      <li class="chemistry-types-item">Силиконовая смазка</li>
+      <li class="chemistry-types-item">Цепная смазка</li>
+      <li class="chemistry-types-item">Медная смазка</li>
+      <li class="chemistry-types-item">Графитовая смазка</li>
+      <li class="chemistry-types-item">Очиститель кондиционера пенный</li>
+      <li class="chemistry-types-item">Очиститель тормозных дисков</li>
+      <li class="chemistry-types-item">Очиститель битумных пятен </li>
+      <li class="chemistry-types-item">Очиститель кондционера</li>
+      <li class="chemistry-types-item">Очиститель дросельной заслонки</li>
+      <li class="chemistry-types-item">Очиститель обивки</li>
+      <li class="chemistry-types-item">Тефлоновая смазка</li>
+      <li class="chemistry-types-item">Очиститель двигателя</li>
+      <li class="chemistry-types-item">Универсальный очиститель</li>
+      <li class="chemistry-types-item">Чернитель шин</li>
+      <li class="chemistry-types-item">Чернитель шин + очистка</li>
+    </ul>
+  </div>
+</section>
+
+<?php include_once('./template-parts/study-center-block.php');?>
+
+<?php include_once('./template-parts/work-scheme-block.php')?>
+
+<?php include_once('./template-parts/clients-block.php')?>
+
+<?php include_once("./template-parts/footer.php");?>
