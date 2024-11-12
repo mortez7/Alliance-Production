@@ -2443,4 +2443,19 @@ body.front-page .slider-arrow-next {
   .image-buttons {
     margin-top: 20px;
   }
+
+  .seo {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .seo-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .seo-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
 }
