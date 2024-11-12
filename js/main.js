@@ -20,26 +20,34 @@ const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
 };
 
-const changeNavHeight = (height) => {
+const changeNavHeight = (height, padding) => {
   navbar.style.height = height;
+  mMenuToggle.style.paddingTop = padding;
+  mMenuToggle.style.paddingBottom = padding;
 };
 
 const openMenu = (event) => {
   menu.classList.add("is-open");
   mMenuToggle.classList.add("close-menu");
   document.body.style.overflow = "hidden"; // запрещаем прокрутку сайта под меню
-  lightModeOn();
+  if (isFront) {
+    lightModeOn();
+  }
 };
 
 const closeMenu = (event) => {
   menu.classList.remove("is-open");
   mMenuToggle.classList.remove("close-menu");
   document.body.style.overflow = ""; // возвращает прокрутку сайта под меню
-  lightModeOff();
+  if (isFront) {
+    lightModeOff();
+  }
 };
 
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
+  this.scrollY > 1
+    ? changeNavHeight("4.5rem", "20px")
+    : changeNavHeight("5.875rem", "2.3rem");
   if (isFront) {
     this.scrollY > 1 ? lightModeOn() : lightModeOff();
   }
