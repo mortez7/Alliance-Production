@@ -79,7 +79,7 @@ body.front-page .header-image {
 }
 
 .page-header-bg-grey {
-  background-color: #F0F2F5;
+  background-color: #f0f2f5;
 }
 
 .breadcrumbs {
@@ -92,11 +92,11 @@ body.front-page .header-image {
 
 .breadcrumbs-link {
   text-decoration: none;
-  color: #828A99;
+  color: #828a99;
 }
 
 .breadcrumbs-item.active .breadcrumbs-link {
-  color: #292D33;
+  color: #292d33;
 }
 
 .breadcrumbs-item:not(:last-child)::after {
@@ -291,9 +291,11 @@ body.front-page .header-content {
 
 .header-content-image {
   position: absolute;
-  right: 0;
+  right: 15rem;
   bottom: 0;
   display: none;
+  height: 15rem;
+  width: 30rem;
 }
 
 .header-bg-grey-image .header-content-image {
@@ -318,7 +320,7 @@ body.front-page .header-features {
   padding: 0;
   margin-top: 6.25rem;
   list-style: none;
-  color: #292D33;
+  color: #292d33;
   position: relative;
   margin-bottom: 0;
 }
@@ -353,7 +355,7 @@ body.front-page .slider-arrow-next {
 
 .slider-arrow-prev,
 .slider-arrow-next {
-  fill: #292D33;
+  fill: #292d33;
 }
 
 .header-button {
@@ -1199,7 +1201,7 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   line-height: 160%;
   font-size: 1rem;
-  color: #828A99;
+  color: #828a99;
   max-width: 52.5rem;
 }
 
@@ -1226,7 +1228,7 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #828A99;
+  color: #828a99;
   margin-bottom: 1.875rem;
   margin-top: 0;
   max-width: 45rem;
@@ -1264,7 +1266,7 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #828A99;
+  color: #828a99;
   margin: 0;
 }
 
@@ -1276,7 +1278,7 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   font-size: 1.75rem;
   line-height: 160%;
-  color: #292D33;
+  color: #292d33;
   margin-top: 0;
   margin-bottom: 0.625rem;
 }
@@ -1285,7 +1287,7 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #828A99;
+  color: #828a99;
   margin-top: 0;
   margin-bottom: 1.25rem;
 }
@@ -1296,7 +1298,7 @@ body.front-page .slider-arrow-next {
   font-weight: 600;
   font-size: 1rem;
   line-height: 160%;
-  color: #5C8EE5;
+  color: #5c8ee5;
   display: flex;
   align-items: center;
   gap: 0.9375rem;
@@ -1329,7 +1331,7 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #828A99;
+  color: #828a99;
 }
 
 .chem-manufacturing {
@@ -1355,7 +1357,7 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #828A99;
+  color: #828a99;
   max-width: 45rem;
   margin-bottom: 1.875rem;
 }
@@ -1363,7 +1365,6 @@ body.front-page .slider-arrow-next {
 .chem-manufacturing-list {
   padding: 0;
   columns: 2 auto;
-
 }
 
 .chem-manufacturing-item {
@@ -1373,7 +1374,7 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #292D33;
+  color: #292d33;
   margin-bottom: 1.25rem;
 }
 
@@ -1396,9 +1397,9 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #828A99;
+  color: #828a99;
   max-width: 52.5rem;
-  margin-bottom: 3.125rem
+  margin-bottom: 3.125rem;
 }
 .chemistry-types-list {
   list-style: none;
@@ -1409,7 +1410,7 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #292D33;
+  color: #292d33;
   margin-bottom: 1.25rem;
   display: flex;
   align-items: center;
@@ -1421,7 +1422,7 @@ body.front-page .slider-arrow-next {
   height: 1px;
   width: 16px;
   margin-right: 1.25rem;
-  background: #5C8EE5;
+  background: #5c8ee5;
 }
 
 @media (max-width: 1710px) {
@@ -1537,6 +1538,26 @@ body.front-page .slider-arrow-next {
 
   .footer-menu-wrapper:last-child {
     margin-left: 6.375rem;
+  }
+
+  .header-content-image {
+    right: 6.25rem;
+  }
+
+  .chem-production-wrapper {
+    gap: 1.875rem;
+  }
+
+  .chem-manufacturing-content {
+    padding-bottom: 3.875rem;
+  }
+
+  .chem-manufacturing-image {
+    width: 41%;
+  }
+
+  .chem-manufacturing-text {
+    max-width: 35rem;
   }
 }
 
@@ -1749,6 +1770,28 @@ body.front-page .slider-arrow-next {
     flex-direction: column;
     align-items: center;
   }
+
+  .chem-production-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chem-production-image {
+    max-width: 100%;
+    height: 430px;
+  }
+
+  .chem-manufacturing-content {
+    padding-bottom: 50px;
+  }
+
+  .chemistry-types-list {
+    columns: 3 auto;
+  }
+
+  .study-content {
+    gap: 2.25rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1827,6 +1870,23 @@ body.front-page .slider-arrow-next {
 
   .made-in {
     font-size: 12px;
+  }
+
+  .header-bg-grey-image .header-content-image {
+    display: none;
+  }
+
+  .chem-manufacturing-image {
+    position: relative;
+    width: 100%;
+  }
+
+  .chemistry-types-list {
+    columns: 2 auto;
+  }
+
+  .hidden-text {
+    display: none;
   }
 }
 
@@ -2290,5 +2350,97 @@ body.front-page .slider-arrow-next {
   .mission-img {
     width: 345px;
     height: 430px;
+  }
+
+  .chem-production {
+    margin-top: 50px;
+  }
+
+  .chem-production-wrapper {
+    gap: 0px;
+  }
+
+  .chem-production-text {
+    font-size: 14px;
+  }
+
+  .chem-production {
+    margin-top: 100px;
+  }
+
+  .chem-manufacturing-content {
+    padding-top: 0;
+  }
+
+  .chem-manufacturing-title {
+    margin-bottom: 10px;
+  }
+
+  .chem-manufacturing-text {
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  .chem-manufacturing-list {
+    columns: 1;
+    margin-bottom: 0;
+  }
+
+  .chem-manufacturing-item {
+    gap: 20px;
+    font-size: 14px;
+  }
+
+  .chemistry-types {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .chemistry-types-title {
+    margin-bottom: 10px;
+  }
+
+  .chemistry-types-text {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .chemistry-types-list {
+    columns: 1;
+  }
+
+  .chemistry-types-item {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .chemistry-types-item::before {
+    margin-right: 20px;
+  }
+
+  .study {
+    margin-top: 100px;
+  }
+
+  .study-title {
+    margin-bottom: 10px;
+  }
+
+  .study-text {
+    font-size: 14px;
+  }
+
+  .study-content {
+    margin-bottom: 30px;
+  }
+
+  .image-card {
+    max-width: 100%;
+  }
+
+  .image-buttons {
+    margin-top: 20px;
   }
 }

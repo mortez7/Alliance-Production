@@ -44,12 +44,12 @@
           <!-- If we need navigation buttons -->
           <div class="steps-buttons primary-buttons-wrapper">
             <div class="steps-button-prev primary-button-prev">
-              <svg width="36" height="24">
+              <svg width="36" height="24" fill="#fff">
                 <use href="./img/sprite.svg#arrow-prev"></use>
               </svg>
             </div>
             <div class="steps-button-next primary-button-next">
-              <svg width="36" height="24">
+              <svg width="36" height="24" fill="#fff">
                 <use href="./img/sprite.svg#arrow-next"></use>
               </svg>
             </div>
