@@ -1387,12 +1387,6 @@ body.front-page .slider-arrow-next {
   object-fit: cover;
 }
 
-.chemistry-types {
-}
-
-.chemistry-types-title {
-}
-
 .chemistry-types-text {
   font-weight: 400;
   font-size: 1rem;
@@ -1401,11 +1395,13 @@ body.front-page .slider-arrow-next {
   max-width: 52.5rem;
   margin-bottom: 3.125rem;
 }
+
 .chemistry-types-list {
   list-style: none;
   padding: 0;
   columns: 4 auto;
 }
+
 .chemistry-types-item {
   font-weight: 400;
   font-size: 1rem;
@@ -1423,6 +1419,100 @@ body.front-page .slider-arrow-next {
   width: 16px;
   margin-right: 1.25rem;
   background: #5c8ee5;
+}
+
+.prod-ag-tech {
+  margin-top: 6.25rem;
+  margin-bottom: 0;
+}
+
+.prod-ag-tech-wrapper {
+  display: flex;
+  gap: 7.5rem;
+}
+
+.ag-tech-image {
+  width: 37.5rem;
+  height: 46.875rem;
+  object-fit: cover;
+}
+
+.prod-ag-tech-content {
+  padding-top: 3.125rem;
+}
+
+.prod-ag-tech-title {
+  margin-bottom: 1.25rem;
+}
+
+.prod-ag-tech-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+  margin-bottom: 1.875rem;
+}
+
+.distributor {
+  background-color: #F0F2F5;
+  position: relative;
+}
+
+.distributor-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.distributor-content {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+}
+
+.prod-ag-tech-title {
+  max-width: 45rem;
+  margin-bottom: 1.25rem;
+}
+
+.distributor-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828A99;
+  max-width: 45rem;
+  margin-bottom: 1.875rem;
+}
+
+.distributor-list {
+  padding: 0;
+  list-style-type: none;
+  columns: 2 auto;
+  margin-bottom: 1.875rem;
+}
+
+.sistributor-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.875rem;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292D33;
+}
+
+.distributor-button {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 1.5625rem 3.75rem;
+}
+
+.distributor-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
 }
 
 @media (max-width: 1710px) {

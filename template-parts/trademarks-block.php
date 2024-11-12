@@ -8,7 +8,7 @@
         }
         ?>
         <div class="trademarks-cards">
-          <a href="#" class="trademarks-card">
+          <a href="./product_ag-tech.php" class="trademarks-card">
             <svg class="trademark-svg">
               <use href="./img/sprite.svg#ag-tech"></use>
             </svg>
