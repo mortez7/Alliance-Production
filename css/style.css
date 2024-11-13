@@ -258,17 +258,12 @@ body.front-page .header-image {
   display: none;
 }
 
-body.front-page .header-content {
-  padding-top: 9.375rem;
-  position: relative;
-  z-index: 1;
-  color: #fff;
-}
-
 .header-content {
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
   position: relative;
+  z-index: 1;
+  color: #fff;
 }
 
 .separator {
