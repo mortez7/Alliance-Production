@@ -29,30 +29,30 @@ include_once('header-page.php');?>
         <div class="distributor-wrapper">
             <div class="distributor-content">
                 <div class="separator"></div>
-                <h2 class="section-title prod-ag-tech-title">
+                <h2 class="section-title distributor-title">
                     Генеральный дистрибьютор премиальной автохимии
                 </h2>
                 <p class="distributor-text">Внезапно, активно развивающиеся страны третьего мира могут быть объявлены нарушающими общечеловеческие нормы этики и морали.</p>
                 <ul class="distributor-list">
-                    <li class="sistributor-item">
+                    <li class="distributor-item">
                         <svg width="30" height="30">
                         <use href="./img/sprite.svg#him"></use>
                         </svg>
                         Полное описание товаров
                     </li>
-                    <li class="sistributor-item">
+                    <li class="distributor-item">
                         <svg width="30" height="30">
                         <use href="./img/sprite.svg#car"></use>
                         </svg>
                         Актуальные цены
                     </li>
-                    <li class="sistributor-item">
+                    <li class="distributor-item">
                         <svg width="30" height="30">
                         <use href="./img/sprite.svg#brush"></use>
                         </svg>
                         Лаки и краски
                     </li>
-                    <li class="sistributor-item">
+                    <li class="distributor-item">
                         <svg width="30" height="30">
                         <use use href="./img/sprite.svg#him"></use>
                         </svg>

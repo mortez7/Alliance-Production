@@ -1454,7 +1454,7 @@ body.front-page .slider-arrow-next {
 }
 
 .distributor {
-  background-color: #F0F2F5;
+  background-color: #f0f2f5;
   position: relative;
 }
 
@@ -1468,7 +1468,7 @@ body.front-page .slider-arrow-next {
   padding-bottom: 6.25rem;
 }
 
-.prod-ag-tech-title {
+.distributor-title {
   max-width: 45rem;
   margin-bottom: 1.25rem;
 }
@@ -1477,7 +1477,7 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #828A99;
+  color: #828a99;
   max-width: 45rem;
   margin-bottom: 1.875rem;
 }
@@ -1489,7 +1489,7 @@ body.front-page .slider-arrow-next {
   margin-bottom: 1.875rem;
 }
 
-.sistributor-item {
+.distributor-item {
   display: flex;
   align-items: center;
   margin-bottom: 1.875rem;
@@ -1497,7 +1497,7 @@ body.front-page .slider-arrow-next {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #292D33;
+  color: #292d33;
 }
 
 .distributor-button {
@@ -1648,6 +1648,15 @@ body.front-page .slider-arrow-next {
 
   .chem-manufacturing-text {
     max-width: 35rem;
+  }
+
+  .distributor-img {
+    max-width: 45%;
+  }
+
+  .distributor-content {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
   }
 }
 
@@ -1882,6 +1891,37 @@ body.front-page .slider-arrow-next {
   .study-content {
     gap: 2.25rem;
   }
+
+  .prod-ag-tech-wrapper {
+    gap: 2.5rem;
+  }
+
+  .distributor-content {
+    padding-top: 2.5rem;
+    padding-bottom: 3.25rem;
+  }
+
+  .distributor-title {
+    max-width: 36rem;
+    margin-bottom: 1rem;
+  }
+
+  .distributor-text {
+    max-width: 35rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .distributor-list {
+    margin-bottom: 1rem;
+  }
+
+  .distributor-item {
+    margin-bottom: 1rem;
+  }
+
+  .distributor-img {
+    max-width: 42%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1977,6 +2017,17 @@ body.front-page .slider-arrow-next {
 
   .hidden-text {
     display: none;
+  }
+
+  .prod-ag-tech-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .distributor-img {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -2547,5 +2598,70 @@ body.front-page .slider-arrow-next {
   .seo-text {
     font-size: 14px;
     margin-bottom: 20px;
+  }
+
+  .prod-ag-tech {
+    margin-top: 50px;
+  }
+
+  .prod-ag-tech-wrapper {
+    gap: 0;
+  }
+
+  .ag-tech-image {
+    height: 430px;
+    width: 345px;
+  }
+
+  .prod-ag-tech-content {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .prod-ag-tech-title {
+    margin-bottom: 10px;
+  }
+
+  .prod-ag-tech-text {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .distributor {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .distributor-wrapper {
+    justify-content: center;
+  }
+
+  .distributor-title {
+    margin-bottom: 10px;
+  }
+
+  .distributor-text {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .distributor-list {
+    columns: 1;
+    margin-bottom: 35px;
+  }
+
+  .distributor-item {
+    gap: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .distributor-button {
+    width: 100%;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
   }
 }
