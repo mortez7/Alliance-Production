@@ -1515,6 +1515,62 @@ body.front-page .slider-arrow-next {
   height: 100%;
 }
 
+.blog-all-slider {
+  position: relative;
+}
+
+.blog-all-slide-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1.875rem;
+  column-gap: 1.875rem;
+}
+
+.blog-all-card-title {
+  max-width: 37.8125rem;
+}
+
+.blog-all-card-text {
+  max-width: 37.8125rem;
+}
+
+.blog-all-slider-footer {
+  margin-top: 3.125rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blog-all-pagination {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.blog-all-slider .swiper-pagination-bullet {
+  font-size: 16px; 
+  font-weight: 600;
+  line-height: 160%;
+  color: #292D33;
+  padding: 12px 20px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer; 
+  height: auto;
+  width: auto;
+  border-radius: 0;
+  margin: 0 !important;
+  opacity: 1;
+}
+
+.blog-all-slider .swiper-pagination-bullet-active {
+  color: #5C8EE5;
+  border: 1px solid #5C8EE5;
+}
+
+.blog-all-slider .swiper-pagination-bullet:hover {
+  color: #5C8EE5;
+}
+
 @media (max-width: 1710px) {
   html {
     font-size: 14px;

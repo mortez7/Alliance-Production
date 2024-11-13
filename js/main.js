@@ -145,6 +145,22 @@ const swiperImage = new Swiper(".image-slider", {
   },
 });
 
+const swiperBlogAll = new Swiper('.blog-all-slider', {
+  loop: true,
+  speed: 400,
+  slidesPerView: 1,
+  // If we need pagination
+  pagination: {
+    el: '.blog-all-pagination',
+    clickable: true,
+    renderBullet: function (index, className) {
+      //className = "swiper-pagination-button";
+      // Генерация кастомных кнопок с номерами слайдов
+      return '<span class="' + className + '">' + (index + 1) + '</span>';
+    }
+  },
+});
+
 let currentModal;
 let modalDialog;
 let alertModal = document.querySelector("#alert-modal");

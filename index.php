@@ -231,7 +231,7 @@
           </div>
 
           <div class="blog-slider-footer">
-            <a href="#" class="button-link">Весь блог</a>
+            <a href="./blog.php" class="button-link">Весь блог</a>
             <div class="blog-buttons primary-buttons-wrapper">
               <div class="blog-button-prev primary-button-prev">
                 <svg width="36" height="24" class="slider-arrow-prev">
