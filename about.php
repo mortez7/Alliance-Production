@@ -31,48 +31,48 @@ include_once('header-page.php');?>
         <h2 class="section-title mission-title">
         Наше производство
         </h2>
+        <img src="./img/worker.jpg" alt="worker" class="mission-img">
         <p class="mission-text">Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.</p>
         <p class="mission-text">Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня требует анализа анализа существующих паттернов поведения.</p>
-        <ul class="clients-list">
-          <li class="clients-list-item">
-            <svg width="30" height="30" class="clients-list-icon">
+        <ul class="mission-list">
+          <li class="mission-list-item">
+            <svg width="30" height="30">
               <use href="./img/sprite.svg#car"></use>
             </svg>
               Автомобильная химия
           </li> 
-           <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
+           <li class="mission-list-item">
+                <svg width="30" height="30">
                   <use href="./img/sprite.svg#home"></use>
                 </svg>
                 Бытовая химия
               </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
+              <li class="mission-list-item">
+                <svg width="30" height="30">
                   <use href="./img/sprite.svg#dis"></use>
                 </svg>
                 Дезинфицирующие средства
               </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
+              <li class="mission-list-item">
+                <svg width="30" height="30">
                   <use href="./img/sprite.svg#aerozol"></use>
                 </svg>
                 Пищевые аэрозоли
               </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
+              <li class="mission-list-item">
+                <svg width="30" height="30">
                   <use href="./img/sprite.svg#cosmetic"></use>
                 </svg>
                 Косметическая продукция
               </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
+              <li class="mission-list-item">
+                <svg width="30" height="30">
                   <use href="./img/sprite.svg#brush"></use>
                 </svg>
                 Краски аэрозольные
               </li>
             </ul>    
       </div>
-      <img src="./img/worker.jpg" alt="worker" class="mission-img">
       </div>
   </div>
 </section>

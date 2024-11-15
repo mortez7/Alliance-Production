@@ -1212,16 +1212,22 @@ body.front-page .blog-slider-footer {
 .mission-wrapper {
   display: flex;
   gap: 7.5rem;
+  position: relative;
+  width: 100%;
 }
 
 .mission-content {
   padding-top: 3.125rem;
+  padding-bottom: 7rem;
 }
 
 .mission-img {
   width: 37.5rem;
   height: 46.875rem;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .mission-title {
@@ -1236,6 +1242,23 @@ body.front-page .blog-slider-footer {
   margin-bottom: 1.875rem;
   margin-top: 0;
   max-width: 45rem;
+}
+
+.mission-list {
+  list-style: none;
+  padding: 0;
+  columns: 2 auto;
+}
+
+.mission-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+  margin-bottom: 1.25rem;
 }
 
 .image-swiper-wrapper {
@@ -1857,6 +1880,15 @@ body.front-page .blog-slider-footer {
   .blog-more-wrapper {
     gap: 10.625rem;
   }
+
+  .mission-text {
+    max-width: 35rem;
+  }
+
+  .mission-img {
+    width: 33.5rem;
+    height: 42.875rem;
+  }
 }
 
 @media (max-width: 992px) {
@@ -2066,7 +2098,16 @@ body.front-page .blog-slider-footer {
 
   .experts-wrapper {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  .experts-content {
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .experts-text {
+    max-width: 100%;
   }
 
   .chem-production-wrapper {
@@ -2124,6 +2165,24 @@ body.front-page .blog-slider-footer {
 
   .blog-more-wrapper {
     gap: 4.625rem;
+  }
+
+  .mission-wrapper {
+    justify-content: flex-start;
+  }
+
+  .mission-img {
+    position: relative;
+    margin-bottom: 1.875rem;
+  }
+
+  .mission-text {
+    max-width: 100%;
+  }
+
+  .mission-content {
+    padding-bottom: 0;
+    padding-top: 0;
   }
 }
 
@@ -2956,5 +3015,55 @@ body.front-page .blog-slider-footer {
 
   .share-social-link {
     padding: 13px;
+  }
+
+  .experts {
+    margin-top: 50px;
+  }
+
+  .experts-image {
+    margin-bottom: 50px;
+  }
+
+  .experts-content {
+    padding-top: 0;
+  }
+
+  .experts-title {
+    margin-bottom: 10px;
+  }
+
+  .experts-text {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .mission {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .mission-title {
+    margin-bottom: 30px;
+  }
+
+  .mission-img {
+    margin-bottom: 30px;
+  }
+
+  .mission-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .mission-list {
+    columns: 1;
+    margin-top: 30px;
+    margin-bottom: 3px;
+  }
+
+  .mission-list-item {
+    font-size: 14px;
+    gap: 20px;
   }
 }
