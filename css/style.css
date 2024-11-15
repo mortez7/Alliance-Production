@@ -343,8 +343,8 @@ body.front-page .header-features {
   cursor: pointer;
 }
 
- .slider-arrow-prev,
- .slider-arrow-next {
+.slider-arrow-prev,
+.slider-arrow-next {
   fill: #fff;
 }
 
@@ -353,10 +353,9 @@ body.front-page .features-arrow-next {
   fill: #fff;
 }
 
-
 .features-arrow-prev,
 .features-arrow-next {
-  fill: #292D33;
+  fill: #292d33;
 }
 
 .header-button {
@@ -769,6 +768,10 @@ body.front-page .features-arrow-next {
   display: flex;
   align-items: center;
   margin-top: 1.875rem;
+  justify-content: flex-end;
+}
+
+body.front-page .blog-slider-footer {
   justify-content: space-between;
 }
 
@@ -1548,14 +1551,14 @@ body.front-page .features-arrow-next {
 }
 
 .blog-all-slider .swiper-pagination-bullet {
-  font-size: 16px; 
+  font-size: 16px;
   font-weight: 600;
   line-height: 160%;
-  color: #292D33;
+  color: #292d33;
   padding: 12px 20px;
   background-color: #fff;
   border: none;
-  cursor: pointer; 
+  cursor: pointer;
   height: auto;
   width: auto;
   border-radius: 0;
@@ -1564,14 +1567,13 @@ body.front-page .features-arrow-next {
 }
 
 .blog-all-slider .swiper-pagination-bullet-active {
-  color: #5C8EE5;
-  border: 1px solid #5C8EE5;
+  color: #5c8ee5;
+  border: 1px solid #5c8ee5;
 }
 
 .blog-all-slider .swiper-pagination-bullet:hover {
-  color: #5C8EE5;
+  color: #5c8ee5;
 }
-
 
 .blog-more {
   margin-top: 6.25rem;
@@ -1591,7 +1593,7 @@ body.front-page .features-arrow-next {
   font-weight: 600;
   font-size: 1rem;
   line-height: 160%;
-  color: #828A99;
+  color: #828a99;
   margin-top: 0;
   margin-bottom: 1.25rem;
 }
@@ -1605,15 +1607,15 @@ body.front-page .features-arrow-next {
 
 .share-social-link {
   padding: 0.8125rem;
-  border: 1px solid #EBEBF0;
+  border: 1px solid #ebebf0;
   transition: border-color 0.2s;
 }
 
 .share-social-link:hover {
-  border-color: #5C8EE5;
+  border-color: #5c8ee5;
 }
 .blog-article {
-  color: #292D33;
+  color: #292d33;
 }
 
 .blog-article-title {
@@ -1674,7 +1676,7 @@ body.front-page .features-arrow-next {
   font-weight: 600;
   font-size: 1rem;
   line-height: 1;
-  color:#5C8EE5;
+  color: #5c8ee5;
   margin-right: 0.9375rem;
   position: absolute;
   left: 0;
@@ -1705,7 +1707,7 @@ body.front-page .features-arrow-next {
   font-weight: 600;
   font-size: 1rem;
   line-height: 160%;
-  color: #5C8EE5;
+  color: #5c8ee5;
 }
 
 @media (max-width: 1710px) {

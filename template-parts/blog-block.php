@@ -56,7 +56,11 @@
           </div>
 
           <div class="blog-slider-footer">
-            <a href="./blog.php" class="button-link">Весь блог</a>
+            
+            <?php if($block_title == "Блог экспертов в области производства") {
+              echo '<a href="./blog.php" class="button-link">Весь блог</a>';
+              }?>
+
             <div class="blog-buttons primary-buttons-wrapper">
               <div class="blog-button-prev primary-button-prev">
                 <svg width="36" height="24" class="slider-arrow-prev" fill="#fff">
