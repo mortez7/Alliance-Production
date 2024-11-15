@@ -2,7 +2,7 @@
 $page_title =  'Контрактное производство';
 $header_style = 'page-header-bg-grey';
 
-include_once('header-page.php');?>
+include_once('./template-parts/header-page.php');?>
 
 <?php include_once('./template-parts/production-block.php')?>
 
@@ -18,5 +18,7 @@ include_once('header-page.php');?>
         </a>
     </div>
 </section>
+
+<?php include_once("./template-parts/cta-block.php");?>
 
 <?php include_once("./template-parts/footer.php");?>

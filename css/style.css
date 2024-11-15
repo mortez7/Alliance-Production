@@ -1609,9 +1609,6 @@ body.front-page .blog-slider-footer {
   gap: 15.625rem;
 }
 
-.share {
-}
-
 .share-title {
   font-weight: 600;
   font-size: 1rem;
@@ -1731,6 +1728,22 @@ body.front-page .blog-slider-footer {
   font-size: 1rem;
   line-height: 160%;
   color: #5c8ee5;
+}
+
+.politics {
+  margin-top: 6.25rem;
+  margin-bottom: 9.375rem;
+}
+
+.politics-article {
+  color: #292D33;
+}
+
+.politics-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  margin-bottom: 1.25rem;
 }
 
 @media (max-width: 1710px) {
@@ -3065,5 +3078,15 @@ body.front-page .blog-slider-footer {
   .mission-list-item {
     font-size: 14px;
     gap: 20px;
+  }
+
+  .politics {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .politics-text {
+    font-size: 14px;
+    margin-bottom: 10px;
   }
 }

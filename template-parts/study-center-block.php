@@ -15,19 +15,19 @@
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <a href="./blog_more.html" class="swiper-slide image-card">
+    <a href="#" class="swiper-slide image-card">
       <img src="./img/blog/blog-photo.jpg" alt="" class="blog-card-image"/>
     </a>
-    <a href="./blog_more.html" class="swiper-slide image-card">
+    <a href="#" class="swiper-slide image-card">
       <img src="./img/blog/blog-post.jpg" alt="" class="blog-card-image"/>
     </a>
-    <a href="./blog_more.html" class="swiper-slide image-card">
+    <a href="#" class="swiper-slide image-card">
       <img src="./img/blog/blog-photo.jpg" alt="" class="blog-card-image"/>
     </a>
-    <a href="./blog_more.html" class="swiper-slide image-card">
+    <a href="#" class="swiper-slide image-card">
       <img src="./img/blog/blog-post.jpg" alt="" class="blog-card-image"/>
     </a>
-    <a href="./blog_more.html" class="swiper-slide image-card">
+    <a href="#" class="swiper-slide image-card">
       <img src="./img/blog/blog-photo.jpg" alt="" class="blog-card-image"/>
     </a>
   </div>

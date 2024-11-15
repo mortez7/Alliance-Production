@@ -2,7 +2,7 @@
 $page_title =  'О компании';
 $header_style = 'page-header-bg-grey';
 
-include_once('header-page.php');?>
+include_once('./template-parts/header-page.php');?>
 
 <section class="section experts">
   <div class="container">
@@ -82,5 +82,7 @@ include_once('header-page.php');?>
 <?php include_once('./template-parts/study-center-block.php')?>
 
 <?php include_once('./template-parts/clients-block.php')?>
+
+<?php include_once("./template-parts/cta-block.php");?>
 
 <?php include_once("./template-parts/footer.php");?>

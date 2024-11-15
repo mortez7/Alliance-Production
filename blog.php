@@ -2,7 +2,7 @@
 $page_title =  'Блог';
 $header_style = 'page-header-bg-grey header-bg-grey';
 
-include_once('header-page.php');?>
+include_once('./template-parts/header-page.php');?>
 
 <section class="section blog-all">
     <div class="container">
@@ -335,5 +335,7 @@ include_once('header-page.php');?>
         </div>
     </div>
 </section>
+
+<?php include_once("./template-parts/cta-block.php");?>
 
 <?php include_once("./template-parts/footer.php");?>

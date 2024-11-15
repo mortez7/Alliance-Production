@@ -174,4 +174,6 @@
     
     <?php $block_title = "Блог экспертов в области производства"; include_once("./template-parts/blog-block.php");?>
 
+    <?php include_once("./template-parts/cta-block.php");?>
+
 <?php include_once("./template-parts/footer.php");?>

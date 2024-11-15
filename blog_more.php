@@ -2,7 +2,7 @@
 $page_title =  'Современная методология разработки одухотворила всех причастных';
 $header_style = 'page-header-bg-grey page-header-bg-image';
 
-include_once('header-page.php');?>
+include_once('./template-parts/header-page.php');?>
 
 <section class="section blog-more">
     <div class="container">
@@ -71,5 +71,7 @@ include_once('header-page.php');?>
 </section>
 
 <?php $block_title = "Так же вас может заинтересовать:"; include_once("./template-parts/blog-block.php");?>
+
+<?php include_once("./template-parts/cta-block.php");?>
 
 <?php include_once("./template-parts/footer.php");?>

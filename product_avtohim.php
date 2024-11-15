@@ -2,7 +2,7 @@
 $page_title =  'Автомобильная химия';
 $header_style = 'page-header-bg-grey header-bg-grey-image';
 
-include_once('header-page.php');?>
+include_once('./template-parts/header-page.php');?>
 
 <section class="section chem-production">
   <div class="container">
@@ -137,5 +137,7 @@ include_once('header-page.php');?>
 <?php include_once('./template-parts/work-scheme-block.php')?>
 
 <?php include_once('./template-parts/clients-block.php')?>
+
+<?php include_once("./template-parts/cta-block.php");?>
 
 <?php include_once("./template-parts/footer.php");?>
