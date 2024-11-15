@@ -3,9 +3,12 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
+          <a href="./" class="footer-logo-link">
           <svg class="logo-svg footer-logo">
             <use href="./img/sprite.svg#logo"></use>
           </svg>
+          </a>
+          
           <a href="tel:+74996861014" class="footer-phone">+7 (999) 686-10-14</a>
           <div class="footer-info">
             <svg width="24px" height="24px">
@@ -47,7 +50,7 @@
             <h2 class="footer-menu-title">Контрактное производство</h2>
             <ul class="footer-menu-list footer-menu-column-2">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автомобильная химия</a>
+                <a href="./product_avtohim.php" class="footer-menu-link">Автомобильная химия</a>
               </li>
               <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Бытовая химия</a>
@@ -73,7 +76,7 @@
             <h2 class="footer-menu-title">Собственные марки</h2>
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>
+                <a href="./product_ag-tech.php" class="footer-menu-link">Автохимия AG-Tech</a>
               </li>
               <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Автохимия AP</a>
@@ -84,7 +87,7 @@
           <div class="footer-menu-wrapper">
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold"
+                <a href="./about.php" class="footer-menu-link footer-menu-link-bold"
                   >О компании</a
                 >
               </li>
