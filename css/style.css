@@ -1853,6 +1853,10 @@ body.front-page .blog-slider-footer {
     padding-top: 4.25rem;
     padding-bottom: 4.25rem;
   }
+
+  .blog-more-wrapper {
+    gap: 10.625rem;
+  }
 }
 
 @media (max-width: 992px) {
@@ -2117,6 +2121,10 @@ body.front-page .blog-slider-footer {
   .distributor-img {
     max-width: 42%;
   }
+
+  .blog-more-wrapper {
+    gap: 4.625rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2223,6 +2231,16 @@ body.front-page .blog-slider-footer {
     position: relative;
     width: 100%;
     max-width: 100%;
+  }
+
+  .blog-more-wrapper {
+    flex-direction: column-reverse;
+    gap: 3.625rem;
+  }
+
+  .socials-wrapper {
+    justify-content: flex-start;
+    gap: 0.625rem;
   }
 }
 
@@ -2858,5 +2876,85 @@ body.front-page .blog-slider-footer {
     justify-content: center;
     font-weight: 600;
     font-size: 16px;
+  }
+
+  .blog-more {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .blog-article-title {
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 125%;
+    margin-bottom: 10px;
+  }
+
+  .blog-article-text {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .blog-article-subtitle {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .blog-more-image {
+    height: 195px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .blog-more-list-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .blog-more-item {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 31px;
+  }
+
+  .blog-more-item::before {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .blog-more-numbered-list {
+    margin-top: 20px;
+  }
+
+  .blog-more-numbered-item {
+    font-size: 14px;
+    padding-left: 36px;
+    margin-top: 10px;
+  }
+
+  .blog-more-numbered-item::before {
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .blog-more-wrapper {
+    gap: 50px;
+  }
+
+  .share-title {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .socials-wrapper {
+    gap: 10px;
+  }
+
+  .share-social-link {
+    padding: 13px;
   }
 }
