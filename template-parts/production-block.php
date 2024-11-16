@@ -22,7 +22,6 @@
               <img src="./img/avto-him.png" alt="Автомобильная химия" class="card-image"/>
             </picture>
           </a>
-
           <a href="#" class="card">
             <div class="card-content">
               <h3 class="card-title">Бытовая химия</h3>
@@ -95,6 +94,7 @@
               <img src="./img/colors.png" alt="Краски аэрозольные" class="card-image"/>
             </picture>
           </a>
+          
         </div>
       </div>
     </section>

@@ -134,7 +134,7 @@
             </picture>
             </a>
 
-            <a href="#" class="clients-logo-item">
+            <a href="#" class="clients-logo-item hidden-text">
               <picture class="clients-logo">
                 <source type="image/webp" srcset="./img/client.webp">
                 <source type="image/png" srcset="./img/client.png">
