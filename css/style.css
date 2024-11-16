@@ -397,12 +397,17 @@ body.front-page .features-arrow-next {
 }
 
 .section-light {
-  margin-bottom: 0;
+  margin-bottom: 7.6rem;
+}
+
+body.front-page .production {
+  margin-top: 0;
+  margin-bottom: 6.6rem;
 }
 
 .production {
-  margin-top: 7.6rem;
-  margin-bottom: 6.6rem;
+  margin-top: 6.4375rem;
+  margin-bottom: 6.25rem;
 }
 
 .section-title {
@@ -1353,7 +1358,7 @@ body.front-page .blog-slider-footer {
 }
 
 .seo {
-  margin-top: 6.25rem;
+  margin-top: 6.0625rem;
 }
 
 .seo-title {
@@ -1372,6 +1377,8 @@ body.front-page .blog-slider-footer {
   color: #828a99;
   margin-top: 0;
   margin-bottom: 1.25rem;
+  letter-spacing: 0.1px;
+  word-spacing: 0.3px;
 }
 
 .seo-link {
@@ -1384,6 +1391,8 @@ body.front-page .blog-slider-footer {
   display: flex;
   align-items: center;
   gap: 0.9375rem;
+  word-spacing: 0.4px;
+  letter-spacing: 0.3px;
 }
 
 .chem-production {
@@ -2496,8 +2505,13 @@ body.front-page .blog-slider-footer {
     margin-top: 1.5rem;
   }
 
-  .production {
+  body.front-page .production {
     margin-top: 8.2rem;
+  }
+
+  .production {
+    margin-top: 49px;
+    margin-bottom: 50px;
   }
 
   .cards {
@@ -3016,12 +3030,19 @@ body.front-page .blog-slider-footer {
 
   .seo-title {
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 13px;
   }
 
   .seo-text {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 20px;
+    line-height: 161%;
+  }
+
+  .seo-link {
+    font-weight: 700;
+    font-size: 14px;
+    gap: 15px;
   }
 
   .prod-ag-tech {
