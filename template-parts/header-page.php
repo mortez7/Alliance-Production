@@ -148,7 +148,13 @@
           <h1 class="header-title">
             <?= $page_title ?>
           </h1>
-          <img src="./img/avtoHim.png" alt="avtoHim" class="header-content-image">
+
+          <picture class="header-content-image">
+            <source type="image/webp" srcset="./img/avtoHim.webp">
+            <source type="image/png" srcset="./img/avtoHim.png">
+            <img src="./img/avtoHim.png" alt="avtoHim" class="header-content-image">
+          </picture>
+
           <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
                 <a href="./" class="breadcrumbs-link">Главная</a>
@@ -157,6 +163,5 @@
                 <a href="#" class="breadcrumbs-link"><?= $page_title ?></a>
             </li>
           </ul>
-          <img src="./img/avtoHim.png" alt="avtoHim" class="header-content-image">
       </div>
     </header>

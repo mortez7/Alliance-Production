@@ -16,19 +16,43 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <a href="#" class="swiper-slide image-card">
-      <img src="./img/blog/blog-photo.jpg" alt="" class="blog-card-image"/>
+      <picture>
+        <source type="image/webp" srcset="./img/blog/blog-photo.webp">
+        <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
+        <img src="./img/blog/blog-photo.jpg" alt="blog image" class="blog-card-image"/>
+      </picture>
     </a>
+
     <a href="#" class="swiper-slide image-card">
-      <img src="./img/blog/blog-post.jpg" alt="" class="blog-card-image"/>
+      <picture>
+        <source type="image/webp" srcset="./img/blog/blog-post.webp">
+        <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
+        <img src="./img/blog/blog-post.jpg" alt="blog image" class="blog-card-image"/>
+      </picture>
     </a>
+
     <a href="#" class="swiper-slide image-card">
-      <img src="./img/blog/blog-photo.jpg" alt="" class="blog-card-image"/>
+      <picture>
+        <source type="image/webp" srcset="./img/blog/blog-photo.webp">
+        <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
+        <img src="./img/blog/blog-photo.jpg" alt="blog image" class="blog-card-image"/>
+      </picture>
     </a>
+
     <a href="#" class="swiper-slide image-card">
-      <img src="./img/blog/blog-post.jpg" alt="" class="blog-card-image"/>
+      <picture>
+        <source type="image/webp" srcset="./img/blog/blog-post.webp">
+        <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
+        <img src="./img/blog/blog-post.jpg" alt="blog image" class="blog-card-image"/>
+      </picture>
     </a>
+
     <a href="#" class="swiper-slide image-card">
-      <img src="./img/blog/blog-photo.jpg" alt="" class="blog-card-image"/>
+      <picture>
+        <source type="image/webp" srcset="./img/blog/blog-photo.webp">
+        <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
+        <img src="./img/blog/blog-photo.jpg" alt="blog image" class="blog-card-image"/>
+      </picture>
     </a>
   </div>
  <div class="container">

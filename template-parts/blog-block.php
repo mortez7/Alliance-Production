@@ -9,11 +9,13 @@
           <div class="swiper-wrapper">
             <!-- Slides -->
             <a href="./blog_more.php" class="swiper-slide blog-card">
-              <img
-                src="./img/blog/blog-photo.jpg"
-                alt=""
-                class="blog-card-image"
-              />
+
+            <picture class="blog-card-image">
+              <source type="image/webp" srcset="./img/blog/blog-photo.webp">
+              <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
+              <img src="./img/blog/blog-photo.jpg" alt="blog-photo" class="blog-card-image"/>
+            </picture>
+              
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -24,11 +26,11 @@
               </p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-              <img
-                src="./img/blog/blog-post.jpg"
-                alt=""
-                class="blog-card-image"
-              />
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="./img/blog/blog-post.webp">
+                <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
+                <img src="./img/blog/blog-post.jpg" alt="blog-photo" class="blog-card-image"/>
+              </picture>
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
@@ -39,11 +41,11 @@
               </p>
             </a>
             <a href="./blog_more.php" class="swiper-slide blog-card">
-              <img
-                src="./img/blog/blog-photo.jpg"
-                alt=""
-                class="blog-card-image"
-              />
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="./img/blog/blog-photo.webp">
+                <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
+                <img src="./img/blog/blog-photo.jpg" alt="blog-photo" class="blog-card-image"/>
+              </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>

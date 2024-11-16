@@ -7,7 +7,11 @@ include_once('./template-parts/header-page.php');?>
 <section class="section chem-production">
   <div class="container">
     <div class="chem-production-wrapper">
-      <img src="./img/chem-production.jpg" alt="chemistry production" class="chem-production-image">
+      <picture>
+        <source type="image/webp" srcset="./img/chem-production.webp">
+          <source type="image/jpeg" srcset="./img/chem-production.jpg">
+          <img src="./img/chem-production.jpg" alt="chemistry production" class="chem-production-image">
+      </picture>
       <div class="chem-production-content">
         <div class="separator"></div>
         <h2 class="section-title chem-production-title">
@@ -95,7 +99,12 @@ include_once('./template-parts/header-page.php');?>
       </div>
     </div>
   </div>
-  <img src="./img/chem-manufacturing.jpg" alt="chem-manufacturing" class="chem-manufacturing-image">
+  <picture>
+    <source type="image/webp" srcset="./img/chem-manufacturing.webp">
+    <source type="image/jpeg" srcset="./img/chem-manufacturing.jpg">
+    <img src="./img/chem-manufacturing.jpg" alt="chem-manufacturing" class="chem-manufacturing-image">
+  </picture>
+  
 </section>
 
 <section class="section chemistry-types">

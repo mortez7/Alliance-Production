@@ -7,7 +7,11 @@ include_once('./template-parts/header-page.php');?>
 <section class="section prod-ag-tech">
     <div class="container">
         <div class="prod-ag-tech-wrapper">
-            <img src="./img/ag-tech-prod.jpg" alt="ag-tech production" class="ag-tech-image">
+            <picture>
+                <source type="image/webp" srcset="./img/ag-tech-prod.webp">
+                 <source type="image/jpeg" srcset="./img/ag-tech-prod.jpg">
+                 <img src="./img/ag-tech-prod.jpg" alt="ag-tech production" class="ag-tech-image">
+            </picture>
             <div class="prod-ag-tech-content">
                 <div class="separator"></div>
                 <h2 class="section-title prod-ag-tech-title">
@@ -68,7 +72,12 @@ include_once('./template-parts/header-page.php');?>
             </div>
         </div>
     </div>
-    <img src="./img/book.png" alt="book" class="distributor-img">
+    <picture>
+        <source type="image/webp" srcset="./img/book.webp">
+        <source type="image/jpeg" srcset="./img/book.png">
+        <img src="./img/book.png" alt="book" class="distributor-img">
+    </picture>
+    
 </section>
 
 <?php include_once('./template-parts/study-center-block.php');?>

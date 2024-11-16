@@ -7,7 +7,11 @@ include_once('./template-parts/header-page.php');?>
 <section class="section experts">
   <div class="container">
     <div class="experts-wrapper">
-      <img src="./img/experts-logo.png" alt="" class="experts-image">
+      <picture>
+        <source type="image/webp" srcset="./img/experts-logo.webp">
+        <source type="image/png" srcset="./img/experts-logo.png">
+        <img src="./img/experts-logo.png" alt="experts-logo" class="experts-image">
+      </picture>
       <div class="experts-content">
       <div class="separator"></div>
         <h2 class="section-title experts-title">
@@ -31,7 +35,11 @@ include_once('./template-parts/header-page.php');?>
         <h2 class="section-title mission-title">
         Наше производство
         </h2>
+        <picture>
+        <source type="image/webp" srcset="./img/worker.webp">
+        <source type="image/jpeg" srcset="./img/worker.jpg">
         <img src="./img/worker.jpg" alt="worker" class="mission-img">
+      </picture>
         <p class="mission-text">Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.</p>
         <p class="mission-text">Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня требует анализа анализа существующих паттернов поведения.</p>
         <ul class="mission-list">
