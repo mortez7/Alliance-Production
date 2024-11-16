@@ -145,7 +145,7 @@
     <header class="page-header <?= $header_style ?>">
       <div class="container">
           <div class="separator"></div>
-          <h1 class="header-title">
+          <h1 class="page-header-title">
             <?= $page_title ?>
           </h1>
 
