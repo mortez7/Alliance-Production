@@ -2,6 +2,12 @@
 $page_title =  'Автохимия AG-Tech';
 $header_style = 'page-header-bg-grey header-bg-grey-image';
 
+$breadcrumbs = [
+    ['name' => 'Главная', 'url' => './'],
+    ['name' => 'Собственные торговые марки', 'url' => './trademarks.php'],
+    ['name' => $page_title, 'url' => './product_ag-tech.php']
+  ];
+
 include_once('./template-parts/header-page.php');?>
 
 <section class="section prod-ag-tech">

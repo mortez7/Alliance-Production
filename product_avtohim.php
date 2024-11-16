@@ -2,6 +2,12 @@
 $page_title =  'Автомобильная химия';
 $header_style = 'page-header-bg-grey header-bg-grey-image';
 
+$breadcrumbs = [
+  ['name' => 'Главная', 'url' => './'],
+  ['name' => 'Контрактное производство', 'url' => './contracts.php'],
+  ['name' => $page_title, 'url' => './product_avtohim.php']
+];
+
 include_once('./template-parts/header-page.php');?>
 
 <section class="section chem-production">

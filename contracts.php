@@ -2,6 +2,11 @@
 $page_title =  'Контрактное производство';
 $header_style = 'page-header-bg-grey';
 
+$breadcrumbs = [
+    ['name' => 'Главная', 'url' => './'],
+    ['name' => $page_title, 'url' => './contracts.php']
+  ];
+
 include_once('./template-parts/header-page.php');?>
 
 <?php include_once('./template-parts/production-block.php')?>

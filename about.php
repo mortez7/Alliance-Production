@@ -2,6 +2,12 @@
 $page_title =  'О компании';
 $header_style = 'page-header-bg-grey';
 
+$breadcrumbs = [
+  ['name' => 'Главная', 'url' => './'],
+  ['name' => $page_title, 'url' => './about.php']
+];
+
+
 include_once('./template-parts/header-page.php');?>
 
 <section class="section experts">

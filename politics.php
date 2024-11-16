@@ -2,6 +2,11 @@
 $page_title =  'Политика конфиденциальности';
 $header_style = 'page-header-bg-grey';
 
+$breadcrumbs = [
+    ['name' => 'Главная', 'url' => './'],
+    ['name' => $page_title, 'url' => './politics.php']
+  ];
+
 include_once('./template-parts/header-page.php');?>
 
 <section class="section politics">

@@ -156,12 +156,21 @@
           </picture>
 
           <ul class="breadcrumbs">
-            <li class="breadcrumbs-item">
-                <a href="./" class="breadcrumbs-link">Главная</a>
-            </li>
-            <li class="breadcrumbs-item active">
-                <a href="#" class="breadcrumbs-link"><?= $page_title ?></a>
-            </li>
+
+            <?php 
+              foreach ($breadcrumbs as $key => $crumb) {
+                if ($key < count($breadcrumbs) - 1) {
+                  echo "<li class='breadcrumbs-item'>
+                          <a href='{$crumb['url']}' class='breadcrumbs-link'>{$crumb['name']}</a>
+                        </li>";
+                } else {
+                  echo "<li class='breadcrumbs-item active'>
+                        <a href='{$crumb['url']}' class='breadcrumbs-link'>{$crumb['name']}</a>
+                        </li>";
+                }
+              }
+              ?>
+            
           </ul>
       </div>
     </header>

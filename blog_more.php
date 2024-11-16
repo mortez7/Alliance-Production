@@ -2,6 +2,12 @@
 $page_title =  'Современная методология разработки одухотворила всех причастных';
 $header_style = 'page-header-bg-grey page-header-bg-image';
 
+$breadcrumbs = [
+    ['name' => 'Главная', 'url' => './'],
+    ['name' => 'Блог', 'url' => './blog.php'],
+    ['name' => $page_title, 'url' => './blog_more.php']
+  ];
+
 include_once('./template-parts/header-page.php');?>
 
 <section class="section blog-more">

@@ -2,6 +2,11 @@
 $page_title =  'Блог';
 $header_style = 'page-header-bg-grey header-bg-grey';
 
+$breadcrumbs = [
+    ['name' => 'Главная', 'url' => './'],
+    ['name' => $page_title, 'url' => './blog.php']
+  ];
+
 include_once('./template-parts/header-page.php');?>
 
 <section class="section blog-all">
