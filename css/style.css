@@ -289,6 +289,7 @@ body {
   margin-top: 1.4375rem;
   margin-bottom: 2.375rem;
   margin-bottom: 1.8125rem;
+  overflow-wrap: break-word;
 }
 
 .header-title {
@@ -1863,7 +1864,7 @@ body.front-page .blog-slider-footer {
 }
 
 .politics {
-  margin-top: 6.25rem;
+  margin-top: 6.4375rem;
   margin-bottom: 9.375rem;
 }
 
@@ -1874,8 +1875,10 @@ body.front-page .blog-slider-footer {
 .politics-text {
   font-weight: 400;
   font-size: 1rem;
-  line-height: 160%;
+  line-height: 163%;
   margin-bottom: 1.25rem;
+  letter-spacing: 0.1px;
+  word-spacing: 0.18px;
 }
 
 @media (max-width: 1710px) {
@@ -2494,6 +2497,7 @@ body.front-page .blog-slider-footer {
   .page-header-title {
     font-size: 48px;
     margin-bottom: 27px;
+    max-width: 26.5rem;
   }
 
   .page-header {
@@ -3388,12 +3392,14 @@ body.front-page .blog-slider-footer {
 
   .politics {
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 77px;
   }
   
   .politics-text {
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    line-height: 158%;
   }
 
   .blog-all {
