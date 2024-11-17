@@ -70,7 +70,7 @@ include_once('./template-parts/header-page.php');?>
                     </li>
                 </ul>
                 <button class="button distributor-button">
-                    <svg width="30" height="30">
+                    <svg width="24" height="24">
                     <use use href="./img/sprite.svg#download"></use>
                     </svg>
                     Скачать каталог
