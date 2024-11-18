@@ -206,7 +206,7 @@
             Вернуться на главную
           </button>
       </div>
-      
+      </div>
     </div>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
