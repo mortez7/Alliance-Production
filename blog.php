@@ -29,7 +29,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -39,7 +39,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -49,7 +49,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -59,7 +59,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -69,7 +69,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -79,7 +79,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -89,7 +89,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -99,7 +99,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -109,7 +109,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -133,7 +133,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -143,7 +143,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -153,7 +153,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -163,7 +163,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -173,7 +173,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -183,7 +183,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -193,7 +193,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -203,7 +203,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -213,7 +213,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -237,7 +237,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -247,7 +247,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -257,7 +257,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -267,7 +267,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -277,7 +277,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -287,7 +287,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -297,7 +297,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -307,7 +307,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -317,7 +317,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -341,7 +341,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -351,7 +351,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -361,7 +361,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -371,7 +371,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -381,7 +381,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -391,7 +391,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -401,7 +401,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -411,7 +411,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -421,7 +421,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -445,7 +445,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -455,7 +455,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -465,7 +465,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -475,7 +475,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -485,7 +485,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -495,7 +495,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
@@ -505,7 +505,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -515,7 +515,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="./blog_more.php" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-photo.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-photo.jpg">
@@ -525,7 +525,7 @@ include_once('./template-parts/header-page.php');?>
                         <p class="blog-card-text blog-all-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
 
-                    <a href="./blog_more.html" class="blog-card blog-all-card">
+                    <a href="#" class="blog-card blog-all-card">
                         <picture>
                             <source type="image/webp" srcset="./img/blog/blog-post.webp">
                             <source type="image/jpeg" srcset="./img/blog/blog-post.jpg">
