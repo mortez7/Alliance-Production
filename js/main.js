@@ -145,19 +145,19 @@ const swiperImage = new Swiper(".image-slider", {
   },
 });
 
-const swiperBlogAll = new Swiper('.blog-all-slider', {
+const swiperBlogAll = new Swiper(".blog-all-slider", {
   loop: true,
   speed: 400,
   slidesPerView: 1,
   // If we need pagination
   pagination: {
-    el: '.blog-all-pagination',
+    el: ".blog-all-pagination",
     clickable: true,
     renderBullet: function (index, className) {
       //className = "swiper-pagination-button";
       // Генерация кастомных кнопок с номерами слайдов
-      return '<span class="' + className + '">' + (index + 1) + '</span>';
-    }
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
   },
 });
 
@@ -166,7 +166,6 @@ let modalDialog;
 let alertModal = document.querySelector("#alert-modal");
 
 const modalButtons = document.querySelectorAll("[data-toggle=modal]");
-console.log(modalButtons);
 
 modalButtons.forEach((button) => {
   button.addEventListener("click", (event) => {
@@ -199,7 +198,6 @@ const headerChange = () => {
 headerChange();
 
 const forms = document.querySelectorAll("form");
-console.log(forms);
 
 forms.forEach((form) => {
   const validation = new JustValidate(form, {
@@ -234,8 +232,9 @@ forms.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            currentModal.classList.remove("is-open");
             alertModal.classList.add("is-open");
+            currentModal.classList.remove("is-open");
+
             currentModal = alertModal;
             modalDialog = currentModal.querySelector(".modal-dialog");
 
