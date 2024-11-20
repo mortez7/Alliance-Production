@@ -257,7 +257,7 @@ body {
 .navbar-button {
   flex-shrink: 0;
   height: 100%;
-  padding: 1.5625rem 2.75rem;
+  padding: 1.2rem 2.75rem;
 }
 
 .navbar-button .button-icon {
@@ -507,7 +507,6 @@ body.front-page .production {
 .primary-button-next {
   padding-right: 0.875rem;
 }
-
 
 .primary-button-prev,
 .primary-button-next {
@@ -1043,7 +1042,10 @@ body.front-page .blog-slider-footer {
 }
 
 .footer-separator {
-  color: #ebebf0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  height: 1px;
+  background-color: #ebebf0;
 }
 
 .footer-bottom {
@@ -1355,7 +1357,7 @@ body.front-page .blog-slider-footer {
 
 .study-title {
   max-width: 37.5rem;
-  margin-bottom: 1.5rem
+  margin-bottom: 1.5rem;
 }
 
 .study-content {
@@ -1833,7 +1835,7 @@ body.front-page .blog-slider-footer {
 }
 
 .blog-text-link {
-  color: #5C8EE5;
+  color: #5c8ee5;
 }
 
 .blog-more-numbered-list {
@@ -1869,7 +1871,7 @@ body.front-page .blog-slider-footer {
 }
 
 .politics-article {
-  color: #292D33;
+  color: #292d33;
 }
 
 .politics-text {
@@ -1939,7 +1941,7 @@ body.front-page .blog-slider-footer {
   .header-content-image {
     right: 3.25rem;
   }
- 
+
   .navbar {
     height: 5.8rem;
   }
@@ -2772,18 +2774,18 @@ body.front-page .blog-slider-footer {
 
   .slider-arrow-prev,
   .slider-arrow-next {
-  width: 30px;
-  height: 20px;
-}
+    width: 30px;
+    height: 20px;
+  }
 
-.primary-button-prev,
-.primary-button-next {
-  padding: 0;
-}
+  .primary-button-prev,
+  .primary-button-next {
+    padding: 0;
+  }
 
-.button-link {
-  letter-spacing: 0;
-}
+  .button-link {
+    letter-spacing: 0;
+  }
 
   .blog {
     margin-bottom: 0;
@@ -2964,8 +2966,8 @@ body.front-page .blog-slider-footer {
   }
 
   .modal-close {
-    right: 30px;
-    top: 30px;
+    right: 12px;
+    top: 16px;
     width: 40px;
     height: 40px;
   }
@@ -3059,7 +3061,6 @@ body.front-page .blog-slider-footer {
   .chem-manufacturing-title {
     margin-bottom: 13px;
     letter-spacing: 0.3px;
-
   }
 
   .chem-manufacturing-text {
@@ -3112,10 +3113,9 @@ body.front-page .blog-slider-footer {
     line-height: 158%;
     max-width: 100%;
   }
-  
+
   .chemistry-types-item::before {
     top: 6px;
-
   }
 
   .chemistry-types-item::before {
@@ -3314,7 +3314,6 @@ body.front-page .blog-slider-footer {
   .blog-more-numbered-item::before {
     font-weight: 700;
     font-size: 14px;
-    
   }
 
   .blog-more-wrapper {
@@ -3394,7 +3393,7 @@ body.front-page .blog-slider-footer {
     margin-top: 50px;
     margin-bottom: 77px;
   }
-  
+
   .politics-text {
     font-size: 14px;
     margin-bottom: 8px;
